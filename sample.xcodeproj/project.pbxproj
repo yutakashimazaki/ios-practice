@@ -8,27 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		513B2B7924EAC51700A08788 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 513B2B7824EAC51700A08788 /* AppDelegate.m */; };
-		513B2B7C24EAC51700A08788 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 513B2B7B24EAC51700A08788 /* SceneDelegate.m */; };
-		513B2B7F24EAC51700A08788 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 513B2B7E24EAC51700A08788 /* ViewController.m */; };
-		513B2B8224EAC51700A08788 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 513B2B8024EAC51700A08788 /* Main.storyboard */; };
 		513B2B8424EAC51D00A08788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 513B2B8324EAC51D00A08788 /* Assets.xcassets */; };
 		513B2B8724EAC51D00A08788 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 513B2B8524EAC51D00A08788 /* LaunchScreen.storyboard */; };
 		513B2B8A24EAC51D00A08788 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 513B2B8924EAC51D00A08788 /* main.m */; };
+		513B2B9224F2595E00A08788 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 513B2B9124F2595E00A08788 /* RootViewController.m */; };
+		513B2B9D250050DD00A08788 /* StartingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 513B2B9B250050DD00A08788 /* StartingViewController.m */; };
+		513B2B9E250050DD00A08788 /* StartingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 513B2B9C250050DD00A08788 /* StartingViewController.xib */; };
+		513B2BA1250141C800A08788 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 513B2BA0250141C800A08788 /* BaseViewController.m */; };
+		513B2BA525014D6B00A08788 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 513B2BA325014D6B00A08788 /* HomeViewController.m */; };
+		513B2BA625014D6B00A08788 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 513B2BA425014D6B00A08788 /* HomeViewController.xib */; };
+		513B2BB12504F70100A08788 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 513B2BB02504F70100A08788 /* Localizable.strings */; };
+		513B2BB62504F88000A08788 /* ResourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 513B2BB52504F88000A08788 /* ResourceManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		513B2B7424EAC51700A08788 /* sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		513B2B7724EAC51700A08788 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		513B2B7824EAC51700A08788 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		513B2B7A24EAC51700A08788 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		513B2B7B24EAC51700A08788 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		513B2B7D24EAC51700A08788 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		513B2B7E24EAC51700A08788 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		513B2B8124EAC51700A08788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		513B2B8324EAC51D00A08788 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		513B2B8624EAC51D00A08788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		513B2B8824EAC51D00A08788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		513B2B8924EAC51D00A08788 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		513B2B9024F2595D00A08788 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		513B2B9124F2595E00A08788 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		513B2B9A250050DD00A08788 /* StartingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartingViewController.h; sourceTree = "<group>"; };
+		513B2B9B250050DD00A08788 /* StartingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartingViewController.m; sourceTree = "<group>"; };
+		513B2B9C250050DD00A08788 /* StartingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StartingViewController.xib; sourceTree = "<group>"; };
+		513B2B9F250141C800A08788 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		513B2BA0250141C800A08788 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		513B2BA225014D6B00A08788 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		513B2BA325014D6B00A08788 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		513B2BA425014D6B00A08788 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		513B2BB02504F70100A08788 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		513B2BB22504F7A400A08788 /* LabelDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LabelDefine.h; sourceTree = "<group>"; };
+		513B2BB42504F88000A08788 /* ResourceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResourceManager.h; sourceTree = "<group>"; };
+		513B2BB52504F88000A08788 /* ResourceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResourceManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,19 +75,100 @@
 		513B2B7624EAC51700A08788 /* sample */ = {
 			isa = PBXGroup;
 			children = (
-				513B2B7724EAC51700A08788 /* AppDelegate.h */,
-				513B2B7824EAC51700A08788 /* AppDelegate.m */,
-				513B2B7A24EAC51700A08788 /* SceneDelegate.h */,
-				513B2B7B24EAC51700A08788 /* SceneDelegate.m */,
-				513B2B7D24EAC51700A08788 /* ViewController.h */,
-				513B2B7E24EAC51700A08788 /* ViewController.m */,
-				513B2B8024EAC51700A08788 /* Main.storyboard */,
-				513B2B8324EAC51D00A08788 /* Assets.xcassets */,
-				513B2B8524EAC51D00A08788 /* LaunchScreen.storyboard */,
-				513B2B8824EAC51D00A08788 /* Info.plist */,
-				513B2B8924EAC51D00A08788 /* main.m */,
+				513B2BA82504E85700A08788 /* res */,
+				513B2BA72504E7E200A08788 /* src */,
 			);
 			path = sample;
+			sourceTree = "<group>";
+		};
+		513B2BA72504E7E200A08788 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				513B2B8924EAC51D00A08788 /* main.m */,
+				513B2B7724EAC51700A08788 /* AppDelegate.h */,
+				513B2B7824EAC51700A08788 /* AppDelegate.m */,
+				513B2BAF2504EB0200A08788 /* define */,
+				513B2BAE2504EAB900A08788 /* manager */,
+				513B2BAD2504EA4F00A08788 /* screen */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		513B2BA82504E85700A08788 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				513B2BAC2504E9F600A08788 /* color */,
+				513B2BA92504E87C00A08788 /* image */,
+				513B2BAB2504E8AE00A08788 /* locale */,
+				513B2BAA2504E89100A08788 /* plist */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		513B2BA92504E87C00A08788 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				513B2B8324EAC51D00A08788 /* Assets.xcassets */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		513B2BAA2504E89100A08788 /* plist */ = {
+			isa = PBXGroup;
+			children = (
+				513B2B8824EAC51D00A08788 /* Info.plist */,
+			);
+			path = plist;
+			sourceTree = "<group>";
+		};
+		513B2BAB2504E8AE00A08788 /* locale */ = {
+			isa = PBXGroup;
+			children = (
+				513B2BB02504F70100A08788 /* Localizable.strings */,
+			);
+			path = locale;
+			sourceTree = "<group>";
+		};
+		513B2BAC2504E9F600A08788 /* color */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = color;
+			sourceTree = "<group>";
+		};
+		513B2BAD2504EA4F00A08788 /* screen */ = {
+			isa = PBXGroup;
+			children = (
+				513B2B9F250141C800A08788 /* BaseViewController.h */,
+				513B2BA0250141C800A08788 /* BaseViewController.m */,
+				513B2BA225014D6B00A08788 /* HomeViewController.h */,
+				513B2BA325014D6B00A08788 /* HomeViewController.m */,
+				513B2BA425014D6B00A08788 /* HomeViewController.xib */,
+				513B2B8524EAC51D00A08788 /* LaunchScreen.storyboard */,
+				513B2B9024F2595D00A08788 /* RootViewController.h */,
+				513B2B9124F2595E00A08788 /* RootViewController.m */,
+				513B2B9A250050DD00A08788 /* StartingViewController.h */,
+				513B2B9B250050DD00A08788 /* StartingViewController.m */,
+				513B2B9C250050DD00A08788 /* StartingViewController.xib */,
+			);
+			path = screen;
+			sourceTree = "<group>";
+		};
+		513B2BAE2504EAB900A08788 /* manager */ = {
+			isa = PBXGroup;
+			children = (
+				513B2BB42504F88000A08788 /* ResourceManager.h */,
+				513B2BB52504F88000A08788 /* ResourceManager.m */,
+			);
+			path = manager;
+			sourceTree = "<group>";
+		};
+		513B2BAF2504EB0200A08788 /* define */ = {
+			isa = PBXGroup;
+			children = (
+				513B2BB22504F7A400A08788 /* LabelDefine.h */,
+			);
+			path = define;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,9 +228,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				513B2BB12504F70100A08788 /* Localizable.strings in Resources */,
 				513B2B8724EAC51D00A08788 /* LaunchScreen.storyboard in Resources */,
+				513B2B9E250050DD00A08788 /* StartingViewController.xib in Resources */,
 				513B2B8424EAC51D00A08788 /* Assets.xcassets in Resources */,
-				513B2B8224EAC51700A08788 /* Main.storyboard in Resources */,
+				513B2BA625014D6B00A08788 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,24 +243,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				513B2B7F24EAC51700A08788 /* ViewController.m in Sources */,
 				513B2B7924EAC51700A08788 /* AppDelegate.m in Sources */,
+				513B2BB62504F88000A08788 /* ResourceManager.m in Sources */,
+				513B2BA1250141C800A08788 /* BaseViewController.m in Sources */,
 				513B2B8A24EAC51D00A08788 /* main.m in Sources */,
-				513B2B7C24EAC51700A08788 /* SceneDelegate.m in Sources */,
+				513B2B9224F2595E00A08788 /* RootViewController.m in Sources */,
+				513B2B9D250050DD00A08788 /* StartingViewController.m in Sources */,
+				513B2BA525014D6B00A08788 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		513B2B8024EAC51700A08788 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				513B2B8124EAC51700A08788 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		513B2B8524EAC51D00A08788 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -290,7 +382,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = sample/Info.plist;
+				INFOPLIST_FILE = sample/res/plist/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +398,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = sample/Info.plist;
+				INFOPLIST_FILE = sample/res/plist/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
