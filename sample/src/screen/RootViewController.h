@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ViewController.h
 //  sample
 //
 //  Created by Yutaka Shimazaki on 2020/08/17.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface RootViewController : UIViewController
 
++ (instancetype)sharedInstance;
 
 @end
-
